@@ -2,3 +2,34 @@
 .coverage
 .pytest_cache
 *__pycache__
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore compiled binaries and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore build output directories
+/build/
+/dist/
+
+# Ignore package manager directories
+/node_modules/
+/packages/
+
+# Ignore log files
+*.log
+
+# Ignore sensitive or environment-specific files
+.env
+.secret
+
+# Ignore generated documentation
+/docs/
+
+# Ignore backup files
+*.bak
+*.swp
